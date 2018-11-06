@@ -36,6 +36,10 @@ export default {
 			email: '',
 			password: ''
     }
-  }
+	},
+
+	metods: {
+		//
+	}
 }
 </script>

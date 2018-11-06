@@ -43,8 +43,8 @@
 	</v-ons-list>
 
 	<section style="margin: 16px">
-			<v-ons-button style="margin: 6px 0">Login</v-ons-button>
-			<v-ons-button style="margin: 6px 0">Sign Up</v-ons-button>
+		<v-ons-button style="margin: 6px 0">Login</v-ons-button>
+		<v-ons-button style="margin: 6px 0">Sign Up</v-ons-button>
 	</section>
 
 	</v-ons-page>
@@ -55,12 +55,16 @@
 export default {
   data() {
     return {
-		  first_name: '',
+			irst_name: '',
 			last_name: '',
 			email: '',
 			password: '',
 			repeat_password: ''
     }
-  }
+	},
+
+	metods: {
+		//
+	}
 }
 </script>
